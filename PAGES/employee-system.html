@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->  <!--<![endif]-->
+<html lang="en">
+	<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Photo Gallery</title>
+			<meta name="keywords" content="Thai, furniture, rattan, เฟอร์นิเจอร์หวาย"/>
+			<meta name="description" content="Oriental living"/>
+			<meta name="author" content="RGB7">
+			<link rel="shortcut icon" href="../assets/ico/favicon.png">
+			<!-- Bootstrap core CSS -->
+			<link href="../assets/css/bootstrap.css" rel="stylesheet">
+			<link href="../assets/css/rgb7-style.css" rel="stylesheet">
+			<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+			<!--[if lt IE 9]>
+			<script src="../assets/js/html5shiv.js"></script>
+			<script src="../assets/js/respond.min.js"></script>
+			<![endif]-->
+			<!--++++++++++++  Plug in ++++++++++++++++-->
+			<link href="../assets/css/custom.css" rel="stylesheet" type="text/css"/>
+			<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap-spinner.css" />
+			<!--++++++++++++ End  Plug in ++++++++++++++++-->        
+	</head>
+	<body class="bgBodyZone" >
+		<!--===========================================-->
+		<!--================Content ======================-->
+		<!--===========================================-->
+			<div class="container">
+					<div class="sub-content-section">
+					<!--================Start Content Here========================================-->
+							<div class= "col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<!-- BEGIN section contact-pages -->
+									<section class="employee-system">
+									<h1>Employee System</h1>
+									<div class="row">
+									        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+										        <div class="panel-group" id="accordion" >
+									                <div class="panel panel-default">
+									                    <div class="panel-heading">
+									                        <h4 class="panel-title">
+									                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-user">
+									                            </span>Account</a>
+									                        </h4>
+									                    </div>
+									                    <div id="collapseThree" class="panel-collapse collapse">
+									                        <div class="panel-body">
+									                            <table class="table">
+										                            <tr>
+										                                <td>
+										                                   <h3>User Name</h3>
+										                                </td>
+										                            </tr>
+									                                <tr>
+									                                    <td>
+									                                        <a href="#Edit" data-toggle="tab" class="active">Edit Profile</a> | <span class="glyphicon glyphicon-trash text-danger"></span><a href="#" class="text-danger">
+									                                            Log out</a>
+									                                    </td>
+									                                </tr>
+									                            </table>
+									                        </div>
+									                    </div>
+									                </div>
+									                <div class="panel panel-default">
+									                    <div class="panel-heading">
+									                        <h4 class="panel-title">
+									                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><span class="glyphicon glyphicon-file">
+									                            </span>Document</a>
+									                        </h4>
+									                    </div>
+									                    <div id="collapseFour" class="panel-collapse collapse">
+									                        <div class="panel-body">
+									                            <table class="table">
+									                                <tr>
+									                                    <td>
+									                                        <span class="glyphicon glyphicon-usd"></span><a href="#Document1" data-toggle="tab">Document</a>
+									                                    </td>
+									                                </tr>
+									                                <tr>
+									                                    <td>
+									                                        <span class="glyphicon glyphicon-user"></span><a href="#Document2" data-toggle="tab">Document</a>
+									                                    </td>
+									                                </tr>
+									                                <tr>
+									                                    <td>
+									                                        <span class="glyphicon glyphicon-tasks"></span><a href="#Document3" data-toggle="tab">Document</a>
+									                                    </td>
+									                                </tr>
+									                                
+									                            </table>
+									                        </div>
+									                    </div>
+									                </div>
+									            </div>
+								            </div>
+									        <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+									            <div class="tab-content">
+									            
+									              <div class="tab-pane active" id="Edit">
+									              
+										              <div class="panel panel-default">
+										                <div class="panel-heading">
+										                  <h3 class="panel-title">Edit Profile</h3>
+										                </div>
+										                <div class="panel-body">
+										                 <div class="row">
+										                 	       <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+										                 	   		<form id="defaultForm" method="post" action="">
+										                 					<div class="row">
+										                 						<div class="col-xs-6 col-sm-6 col-md-6">
+										                 							<div class="form-group">
+										                 	   							<label class="control-label">FirstName *</label>
+										                 		                        <input type="text" name="first_name" id="first_name" class="form-control input-lg" placeholder="First Name" tabindex="1">
+										                 							</div>
+										                 						</div>
+										                 						<div class="col-xs-6 col-sm-6 col-md-6">
+										                 							<div class="form-group">
+										                 	   							<label class="control-label">Last Name *</label>
+										                 								<input type="text" name="last_name" id="last_name" class="form-control input-lg" placeholder="Last Name" tabindex="2">
+										                 							</div>
+										                 						</div>
+										                 					</div>
+										                 					<div class="form-group">
+										                 	   					<label class="control-label">User Name *</label>
+										                 						<input type="text" name="display_name" id="display_name" class="form-control input-lg" placeholder="Display Name" tabindex="3">
+										                 					</div>
+										                 					<div class="form-group">
+										                 	   					<label class="control-label">Email Address *</label>
+										                 						<input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address" tabindex="4">
+										                 					</div>
+										                 					<div class="row">
+										                 						<div class="col-xs-6 col-sm-6 col-md-6">
+										                 							<div class="form-group">
+										                 	   							<label class="control-label">Password *</label>
+										                 								<input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password" tabindex="5">
+										                 							</div>
+										                 						</div>
+										                 						<div class="col-xs-6 col-sm-6 col-md-6">
+										                 							<div class="form-group">
+										                 							    <label class="control-label">Confirm Password *</label>
+										                 								<input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-lg" placeholder="Confirm Password" tabindex="6">
+										                 							</div>
+										                 						</div>
+										                 					</div>
+										                 					<div class="form-group">
+										                 	   					<label class="control-label">Position *</label>
+										                 	   					<select class="form-control input-lg" name="position">
+										                 	   					  <option>1</option>
+										                 	   					  <option>2</option>
+										                 	   					  <option>3</option>
+										                 	   					  <option>4</option>
+										                 	   					  <option>5</option>
+										                 	   					</select>
+										                 					</div>
+										                 					<div class="row">
+										                 						<div class="col-xs-6 col-md-6"><a href="#" class="btn btn-success btn-block btn-lg">Confirm</a></div>
+										                 					</div>
+										                 	   		</form>
+										                 	   	</div>
+										                 </div>
+										                </div>
+										              </div>
+     										          								              
+									              </div>
+									              <div class="tab-pane" id="Document1">
+									              
+										             <div class="row">
+										                     
+										                         <div class="panel panel-primary">
+										                             <div class="panel-heading">
+										                                 <span class="glyphicon glyphicon-list"></span>Document 1
+										                                 <div class="pull-right action-buttons">
+										                                     <div class="btn-group pull-right">
+										                                         <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+										                                             <span class="glyphicon glyphicon-cog" style="margin-right: 0px;"></span>
+										                                         </button>
+										                                         <ul class="dropdown-menu slidedown">
+										                                             <li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-pencil"></span>Edit</a></li>
+										                                             <li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-trash"></span>Delete</a></li>
+										                                             <li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-download"></span>download</a></li>
+										                                         </ul>
+										                                     </div>
+										                                 </div>
+										                             </div>
+										                             <div class="panel-body">
+										                                 <ul class="list-group">
+										                                     <li class="list-group-item">
+										                                         <div class="checkbox">
+										                                             <input type="checkbox" id="checkbox" />
+										                                             <label for="checkbox">
+										                                                 List group item heading
+										                                             </label>
+										                                         </div>
+										                                         <div class="pull-right action-buttons">
+										                                             <a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-pencil"></span></a>
+										                                             <a href="http://www.jquery2dotnet.com" class="trash"><span class="glyphicon glyphicon-trash"></span></a>
+										                                             <a href="http://www.jquery2dotnet.com" class="flag"><span class="glyphicon glyphicon-download"></span></a>
+										                                         </div>
+										                                     </li>
+										                                     <li class="list-group-item">
+										                                         <div class="checkbox">
+										                                             <input type="checkbox" id="checkbox" />
+										                                             <label for="checkbox">
+										                                                 List group item heading
+										                                             </label>
+										                                         </div>
+										                                         <div class="pull-right action-buttons">
+										                                             <a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-pencil"></span></a>
+										                                             <a href="http://www.jquery2dotnet.com" class="trash"><span class="glyphicon glyphicon-trash"></span></a>
+										                                             <a href="http://www.jquery2dotnet.com" class="flag"><span class="glyphicon glyphicon-download"></span></a>
+										                                         </div>
+										                                     </li>
+										                                     <li class="list-group-item">
+										                                         <div class="checkbox">
+										                                             <input type="checkbox" id="checkbox" />
+										                                             <label for="checkbox">
+										                                                 List group item heading
+										                                             </label>
+										                                         </div>
+										                                         <div class="pull-right action-buttons">
+										                                             <a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-pencil"></span></a>
+										                                             <a href="http://www.jquery2dotnet.com" class="trash"><span class="glyphicon glyphicon-trash"></span></a>
+										                                             <a href="http://www.jquery2dotnet.com" class="flag"><span class="glyphicon glyphicon-download"></span></a>
+										                                         </div>
+										                                     </li>
+										                                     <li class="list-group-item">
+										                                         <div class="checkbox">
+										                                             <input type="checkbox" id="checkbox" />
+										                                             <label for="checkbox">
+										                                                 List group item heading
+										                                             </label>
+										                                         </div>
+										                                         <div class="pull-right action-buttons">
+										                                             <a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-pencil"></span></a>
+										                                             <a href="http://www.jquery2dotnet.com" class="trash"><span class="glyphicon glyphicon-trash"></span></a>
+										                                             <a href="http://www.jquery2dotnet.com" class="flag"><span class="glyphicon glyphicon-download"></span></a>
+										                                         </div>
+										                                     </li>
+										                                     
+										                                 </ul>
+										                             </div>
+										                             <div class="panel-footer">
+										                                 <div class="row">
+										                                     <div class="col-md-6">
+										                                         <h6>
+										                                             Total Count <span class="label label-info">25</span></h6>
+										                                     </div>
+										                                     <div class="col-md-6">
+										                                         <ul class="pagination pagination-sm pull-right">
+										                                             <li class="disabled"><a href="javascript:void(0)">«</a></li>
+										                                             <li class="active"><a href="javascript:void(0)">1 <span class="sr-only">(current)</span></a></li>
+										                                             <li><a href="http://www.jquery2dotnet.com">2</a></li>
+										                                             <li><a href="http://www.jquery2dotnet.com">3</a></li>
+										                                             <li><a href="http://www.jquery2dotnet.com">4</a></li>
+										                                             <li><a href="http://www.jquery2dotnet.com">5</a></li>
+										                                             <li><a href="javascript:void(0)">»</a></li>
+										                                         </ul>
+										                                     </div>
+										                                 </div>
+										                             </div>
+										                         </div>
+										                     </div>
+										       
+									              
+									              </div>
+									              <div class="tab-pane" id="Document2">
+									              
+										              <div class="row">
+										                      
+										                          <div class="panel panel-primary">
+										                              <div class="panel-heading">
+										                                  <span class="glyphicon glyphicon-list"></span>Document 2
+										                                  <div class="pull-right action-buttons">
+										                                      <div class="btn-group pull-right">
+										                                          <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+										                                              <span class="glyphicon glyphicon-cog" style="margin-right: 0px;"></span>
+										                                          </button>
+										                                          <ul class="dropdown-menu slidedown">
+										                                              <li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-pencil"></span>Edit</a></li>
+										                                              <li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-trash"></span>Delete</a></li>
+										                                              <li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-download"></span>download</a></li>
+										                                          </ul>
+										                                      </div>
+										                                  </div>
+										                              </div>
+										                              <div class="panel-body">
+										                                  <ul class="list-group">
+										                                      <li class="list-group-item">
+										                                          <div class="checkbox">
+										                                              <input type="checkbox" id="checkbox" />
+										                                              <label for="checkbox">
+										                                                  List group item heading
+										                                              </label>
+										                                          </div>
+										                                          <div class="pull-right action-buttons">
+										                                              <a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-pencil"></span></a>
+										                                              <a href="http://www.jquery2dotnet.com" class="trash"><span class="glyphicon glyphicon-trash"></span></a>
+										                                              <a href="http://www.jquery2dotnet.com" class="flag"><span class="glyphicon glyphicon-download"></span></a>
+										                                          </div>
+										                                      </li>
+										                                      <li class="list-group-item">
+										                                          <div class="checkbox">
+										                                              <input type="checkbox" id="checkbox" />
+										                                              <label for="checkbox">
+										                                                  List group item heading
+										                                              </label>
+										                                          </div>
+										                                          <div class="pull-right action-buttons">
+										                                              <a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-pencil"></span></a>
+										                                              <a href="http://www.jquery2dotnet.com" class="trash"><span class="glyphicon glyphicon-trash"></span></a>
+										                                              <a href="http://www.jquery2dotnet.com" class="flag"><span class="glyphicon glyphicon-download"></span></a>
+										                                          </div>
+										                                      </li>
+										                                      <li class="list-group-item">
+										                                          <div class="checkbox">
+										                                              <input type="checkbox" id="checkbox" />
+										                                              <label for="checkbox">
+										                                                  List group item heading
+										                                              </label>
+										                                          </div>
+										                                          <div class="pull-right action-buttons">
+										                                              <a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-pencil"></span></a>
+										                                              <a href="http://www.jquery2dotnet.com" class="trash"><span class="glyphicon glyphicon-trash"></span></a>
+										                                              <a href="http://www.jquery2dotnet.com" class="flag"><span class="glyphicon glyphicon-download"></span></a>
+										                                          </div>
+										                                      </li>
+										                                      <li class="list-group-item">
+										                                          <div class="checkbox">
+										                                              <input type="checkbox" id="checkbox" />
+										                                              <label for="checkbox">
+										                                                  List group item heading
+										                                              </label>
+										                                          </div>
+										                                          <div class="pull-right action-buttons">
+										                                              <a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-pencil"></span></a>
+										                                              <a href="http://www.jquery2dotnet.com" class="trash"><span class="glyphicon glyphicon-trash"></span></a>
+										                                              <a href="http://www.jquery2dotnet.com" class="flag"><span class="glyphicon glyphicon-download"></span></a>
+										                                          </div>
+										                                      </li>
+										                                      
+										                                  </ul>
+										                              </div>
+										                              <div class="panel-footer">
+										                                  <div class="row">
+										                                      <div class="col-md-6">
+										                                          <h6>
+										                                              Total Count <span class="label label-info">25</span></h6>
+										                                      </div>
+										                                      <div class="col-md-6">
+										                                          <ul class="pagination pagination-sm pull-right">
+										                                              <li class="disabled"><a href="javascript:void(0)">«</a></li>
+										                                              <li class="active"><a href="javascript:void(0)">1 <span class="sr-only">(current)</span></a></li>
+										                                              <li><a href="http://www.jquery2dotnet.com">2</a></li>
+										                                              <li><a href="http://www.jquery2dotnet.com">3</a></li>
+										                                              <li><a href="http://www.jquery2dotnet.com">4</a></li>
+										                                              <li><a href="http://www.jquery2dotnet.com">5</a></li>
+										                                              <li><a href="javascript:void(0)">»</a></li>
+										                                          </ul>
+										                                      </div>
+										                                  </div>
+										                              </div>
+										                          </div>
+										                      </div>
+									              
+									              </div>
+									              <div class="tab-pane" id="Document3">
+									              
+										              <div class="row">
+										                      
+										                          <div class="panel panel-primary">
+										                              <div class="panel-heading">
+										                                  <span class="glyphicon glyphicon-list"></span>Document 3
+										                                  <div class="pull-right action-buttons">
+										                                      <div class="btn-group pull-right">
+										                                          <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+										                                              <span class="glyphicon glyphicon-cog" style="margin-right: 0px;"></span>
+										                                          </button>
+										                                          <ul class="dropdown-menu slidedown">
+										                                              <li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-pencil"></span>Edit</a></li>
+										                                              <li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-trash"></span>Delete</a></li>
+										                                              <li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-download"></span>download</a></li>
+										                                          </ul>
+										                                      </div>
+										                                  </div>
+										                              </div>
+										                              <div class="panel-body">
+										                                  <ul class="list-group">
+										                                      <li class="list-group-item">
+										                                          <div class="checkbox">
+										                                              <input type="checkbox" id="checkbox" />
+										                                              <label for="checkbox">
+										                                                  List group item heading
+										                                              </label>
+										                                          </div>
+										                                          <div class="pull-right action-buttons">
+										                                              <a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-pencil"></span></a>
+										                                              <a href="http://www.jquery2dotnet.com" class="trash"><span class="glyphicon glyphicon-trash"></span></a>
+										                                              <a href="http://www.jquery2dotnet.com" class="flag"><span class="glyphicon glyphicon-download"></span></a>
+										                                          </div>
+										                                      </li>
+										                                      <li class="list-group-item">
+										                                          <div class="checkbox">
+										                                              <input type="checkbox" id="checkbox" />
+										                                              <label for="checkbox">
+										                                                  List group item heading
+										                                              </label>
+										                                          </div>
+										                                          <div class="pull-right action-buttons">
+										                                              <a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-pencil"></span></a>
+										                                              <a href="http://www.jquery2dotnet.com" class="trash"><span class="glyphicon glyphicon-trash"></span></a>
+										                                              <a href="http://www.jquery2dotnet.com" class="flag"><span class="glyphicon glyphicon-download"></span></a>
+										                                          </div>
+										                                      </li>
+										                                      <li class="list-group-item">
+										                                          <div class="checkbox">
+										                                              <input type="checkbox" id="checkbox" />
+										                                              <label for="checkbox">
+										                                                  List group item heading
+										                                              </label>
+										                                          </div>
+										                                          <div class="pull-right action-buttons">
+										                                              <a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-pencil"></span></a>
+										                                              <a href="http://www.jquery2dotnet.com" class="trash"><span class="glyphicon glyphicon-trash"></span></a>
+										                                              <a href="http://www.jquery2dotnet.com" class="flag"><span class="glyphicon glyphicon-download"></span></a>
+										                                          </div>
+										                                      </li>
+										                                      <li class="list-group-item">
+										                                          <div class="checkbox">
+										                                              <input type="checkbox" id="checkbox" />
+										                                              <label for="checkbox">
+										                                                  List group item heading
+										                                              </label>
+										                                          </div>
+										                                          <div class="pull-right action-buttons">
+										                                              <a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-pencil"></span></a>
+										                                              <a href="http://www.jquery2dotnet.com" class="trash"><span class="glyphicon glyphicon-trash"></span></a>
+										                                              <a href="http://www.jquery2dotnet.com" class="flag"><span class="glyphicon glyphicon-download"></span></a>
+										                                          </div>
+										                                      </li>
+										                                      
+										                                  </ul>
+										                              </div>
+										                              <div class="panel-footer">
+										                                  <div class="row">
+										                                      <div class="col-md-6">
+										                                          <h6>
+										                                              Total Count <span class="label label-info">25</span></h6>
+										                                      </div>
+										                                      <div class="col-md-6">
+										                                          <ul class="pagination pagination-sm pull-right">
+										                                              <li class="disabled"><a href="javascript:void(0)">«</a></li>
+										                                              <li class="active"><a href="javascript:void(0)">1 <span class="sr-only">(current)</span></a></li>
+										                                              <li><a href="http://www.jquery2dotnet.com">2</a></li>
+										                                              <li><a href="http://www.jquery2dotnet.com">3</a></li>
+										                                              <li><a href="http://www.jquery2dotnet.com">4</a></li>
+										                                              <li><a href="http://www.jquery2dotnet.com">5</a></li>
+										                                              <li><a href="javascript:void(0)">»</a></li>
+										                                          </ul>
+										                                      </div>
+										                                  </div>
+										                              </div>
+										                          </div>
+										                      </div>
+									              
+									              </div>
+									            </div>
+									        </div>
+									    </div>
+											
+									</section>
+									<!--END section contact-pages-->
+									
+							</div>
+					<!--================end Start Content Here=====================================-->
+					</div><!--end sub-content-section-->
+			</div><!--end col-->
+			<!--end bgfill color-->
+			<!--  ========== Core Script===========-->
+			<script src="../assets/js/jquery.js"></script>
+			<script src="../assets/js/bootstrap.js"></script>
+			<script src="../assets/js/holder.js"></script>
+			<!--++++++++++++  Plug in ++++++++++++++++-->
+			<script>
+			  $(function () {
+			    $('#accordion a:last').tab('show')
+			  })
+			</script>
+			<!--++++++++++++ End Plug in  +++++++++++++--> 
+	</body>
+</html>

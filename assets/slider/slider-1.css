@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans+Std+Light);
+html,body{height:100%;}
+*{outline:none;}
+
+#toolbar{position:fixed; z-index:3; right:10px; top:10px; padding:5px; background:url(fs_img_g_bg.png);}
+#toolbar img{border:none;}
+#img_title{position:fixed; z-index:3; left:10px; top:10px; padding:10px; background:url(fs_img_g_bg.png); color:#FFF; font-family:'Josefin Sans Std Light', arial, serif; font-size:24px; text-transform:uppercase;}
+#bg{
+	overflow:hidden;
+	height: 440px;
+	position: absolute;
+	float: left;
+}
+#bgimg{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.gallery{
+	height: 440px;
+	width: 100%;
+}
+#preloader{
+	width:32px; padding: 10px;
+	z-index: 99;
+	margin-top: 27%;
+	margin-left: 50%;
+	position: absolute;
+}
+#thumbnails_wrapper{
+	background: url(empty.gif); /* stupid ie needs a background value to understand hover area */
+height: 5px;
+	width: 98%;
+	position: relative;
+}
+#outer_container{
+	position: absolute;
+	width: 100%;
+}
+#outer_container .thumbScroller{
+	overflow:hidden; background: rgba(12, 11, 11, 0.42);
+	height: 120px;
+	float: right;
+	position: relative;
+	width: 100%;
+}
+#outer_container .thumbScroller, #outer_container .thumbScroller .container, #outer_container .thumbScroller .content{
+	margin-top: 2px;
+	height: 120px;
+}
+#outer_container .thumbScroller .container{position: relative; left:0;
+}
+#outer_container .thumbScroller .content{float:left;}
+#outer_container .thumbScroller .content div{margin:5px; height:100%;}
+#outer_container .thumbScroller img{border: 3px solid #fff;}
+#outer_container .thumbScroller .content div a{display:block; padding: 1px;}
+
+.thumb{
+	width: 120px;
+	height: 80px;
+	margin-top: 15px;
+}
+.content{
+	background: rgba(6, 5, 5, 0);
+	margin-left: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+.nextImageBtn, .prevImageBtn{display:block; position:absolute; width: 50px; height:50px;
+	margin-right: 6%;
+	margin-bottom: 0;
+	margin-left: 4%;
+	z-index:3; filter:alpha(opacity=40); -moz-opacity:0.4; -khtml-opacity:0.4; opacity:0.4;
+}
+.nextImageBtn:hover,.prevImageBtn:hover{filter:alpha(opacity=80); -moz-opacity:0.8; -khtml-opacity:0.8; opacity:0.8;}
+.nextImageBtn{
+	background:#000 url(nextImgBtn.png) center center no-repeat;
+	position: absolute;
+	margin-top: 200px;
+	right: 0;
+}
+.prevImageBtn{background:#000 url(prevImgBtn.png) center center no-repeat;
+	position: absolute;
+	margin-top: 200px;
+}

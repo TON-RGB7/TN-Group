@@ -1,0 +1,897 @@
+/*
+
+d8888b.  d888b  d8888b. d88888D 
+88  `8D 88' Y8b 88  `8D VP  d8' 
+88oobY' 88      88oooY'    d8'  
+88`8b   88  ooo 88~~~b.   d8'   
+88 `88. 88. ~8~ 88   8D  d8'    
+88   YD  Y888P  Y8888P' d8'     
+                             
+* Copyright 2013, by RGB7
+
+*/
+
+/* @group Font Style Group */
+@import url(http://fonts.googleapis.com/css?family=Pontano+Sans);	
+
+@font-face {
+ font-family: 'thai_sans_literegular';
+ src: url('thaisanslite_r1-webfont.eot');
+ src: url('thaisanslite_r1-webfont.eot?#iefix') format('embedded-opentype'),
+      url('thaisanslite_r1-webfont.woff') format('woff'),
+      url('thaisanslite_r1-webfont.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+
+}
+
+.font-style-speacial{
+
+ font-family: 'Lato', sans-serif;
+
+}
+.font-thaisan{
+	font-family: 'thai_sans_literegular';
+}
+
+.text-white{
+	color: white;	
+}
+
+
+.text-color-white{
+	color: white;
+}
+
+
+.sub-content-section h1{
+	font-size: 2em;
+	
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+}
+
+.sub-content-section h2{
+	font-size: 1.75em;
+}
+
+.sub-content-section h3{
+	font-size: 1.5em;
+
+}
+
+.sub-content-section h4{
+	font-size: 1.125em;
+
+}
+
+.sub-content-section p{
+	font-size: 1em;
+
+}
+.sub-content-section h5{
+	font-size: 2em;
+
+}
+.header-text h1{
+	color: #4a7381;
+	font-family: "thai_sans_literegular", Lucida, Verdana, sans-serif;
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+		/* @end */
+	
+	/* @group Colour Background Group */
+body {
+
+  position: relative;
+  background-color: white;
+}
+
+
+.bgBodyZone{
+	background-color: white;
+}
+.bgHeaderZone{
+	
+}
+
+.bgNavZone{
+	background-color: white;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #efefef;
+	border-top: 1px solid #efefef;
+}
+.bgNavZoneSub{
+	background-color: #635d5d;
+}
+
+.bgContentZone{
+	background-color: white;
+}
+
+.bgFooterZone{
+	background-color: #eeeeee;
+}
+
+
+.bgH1Zone{
+	background-color: white;
+	border-bottom: 1px solid gray;
+	padding: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+.content-section h1{
+	color: black;
+	font-size: 2em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0;
+	font-family: 'Karla', sans-serif;
+}
+
+
+
+
+
+.content-section p{
+	color: silver;
+	font: 0.875em "Lucida Grande", Lucida, Verdana, sans-serif;
+	margin: 10px 0;
+}
+
+.sub-content-section p{
+	color: #1f1f1f;
+
+}
+
+.text-color-gray{
+	color: gray;
+}
+
+
+/* @end */
+
+/* @group RGB7 tweak Group */
+.fill-red{
+	background-color: red;
+}
+.fill-yellow{
+	background: yellow;
+}
+.fill-black{
+	background-color: black;
+}
+
+.fill-green{
+	background-color: green;
+}
+.fill-blue{
+	background-color: blue;
+}
+
+.fill-aqua{
+	background: aqua;
+}
+
+.fill-navy{
+	background-color: navy;
+}
+
+.fill-purple{
+	background-color: purple;
+}
+.content{
+	background-color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* Space things out */
+.content-section + .content-section {
+  padding-top: 40px;
+}
+
+.sub-content-section{
+	 padding-top: 0;
+	padding-bottom: 20px;
+}
+
+.sub-content-section  .content-right-zone h2{
+	padding-bottom: 20px;
+	margin: 0;
+	padding-top: 0;
+}
+
+.item-buttom-margin{
+	margin-bottom: 15px;
+	padding: 0;
+}
+
+.well-contact-block{
+	border: 1px solid silver;
+	padding: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+}
+
+.icon-color-main{
+	color: #1b1b1b;
+}
+
+.icon-color-gray{
+	color: silver;
+}
+.icon-color-white{
+	color: #1b1b1b;
+}
+
+
+.btn-primary .badge{
+	background-color: white;
+	color: #606060;
+}
+/* @end */
+
+
+/* @group Header Group */
+
+.headerZone address p{
+	color: #4c4b4b;
+	margin: 0;
+	padding: 0;
+}
+
+
+.headerZone address {
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+.headerZone address .text-telephone{
+	font-size: 1em;
+}
+
+.headerZone{
+	margin: 0;
+	padding: 0;
+}
+
+.headerZone .data-contact{
+	border-left: 1px solid silver;
+}
+
+.headerZone .nav-zone-text{
+	margin-top: 15px;
+}
+
+
+.headerZone .nav-main{
+}
+
+
+/* @end */
+
+/* @group NavBar Group */
+
+
+.nav-main-list a{
+	color: #1b1b1b;
+}
+
+.nav-main-list a:hover{
+	color: #1b1b1b;
+	text-decoration: underline;
+}
+
+.nav  li a{
+	color: #1b1b1b;
+	margin: 0;
+	padding-right: 30px;
+	padding-left: 30px;
+	text-shadow: 0 0 0 #ffffff;
+	font-size: 1.125em;
+}
+
+.nav-text{
+	padding: 7px 0 5px;
+}
+
+.nav  li >ul > li a{
+	color: white;
+ 	font: 1em "Lucida Grande", Lucida, Verdana, sans-serif;
+	margin: 0;
+	padding-bottom: 5px;
+}
+
+
+.subMenu .nav  li a{
+	color: black;
+	font: 0.818em 'thai_sans_literegular ', sans-serif;
+	background-color: white;
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  background-color: silver;
+	color: white;
+	margin: 0;
+}
+
+.subMenu .nav  li a:hover{
+	background-color: white;
+	border-color: white;
+}
+
+
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+	list-style: none;
+  background-color: white;
+  border: 1px none rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+	text-align: left;
+	font-size: 0.875em;
+}
+
+.dropdown-menu ul li:hover{
+	background-color: #bebebe;
+}
+
+ 
+
+.menu-left-collape  h4{
+	font-size: 1.2em;
+}
+
+.menu-left-collape  h4 a{
+	text-decoration: none;
+}
+
+
+
+.navbar-inverse{
+	margin: 0;
+	padding: 0;
+	z-index: 0;
+}
+
+
+/* @end */
+
+
+
+.landingpage-section{
+	margin-top: 15px;
+}
+/* @group Landingpage Group */
+
+.landing-h1{
+	border-bottom: 1px solid #efefef;
+	border-top: 1px solid #efefef;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.landing-section h1{
+	font-size: 1.75em;
+	margin-bottom: 10px;
+}
+
+.landing-section h3{
+	font-size: 1.25em;
+	margin-bottom: 10px;
+	color: #131313;
+}
+
+/* @group Ourproduct Group */
+
+/* carousel */
+.media-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+  left: -12px;
+	background: none 0 0 repeat scroll #b4b4b4;
+	border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+	margin-top: 100px;
+	padding: 3px;
+}
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  right: -12px !important;
+	background: none 0 0 repeat scroll #b4b4b4;
+	border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 100px;
+	padding-top: 3px;
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+.media-carousel img
+{
+  width: 285px;
+  height: 285px
+padding: 5px;
+}
+/* End carousel */
+
+/* @end */
+
+/* @group banner Group */
+
+.banner-bg{
+	background-image: url(../img/banner-bg.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	    height: 100%;
+}
+
+.landing-banner{
+	margin: 10px 0 0;
+	padding: 0;
+}
+
+
+.carousel-control {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15%;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  opacity: 0.57;
+  filter: alpha(opacity=50);
+}
+.carousel-control.left {
+  background-image:none;
+	
+}
+.carousel-control.right {
+  right: 0;
+  left: auto;
+  background-image:none;
+}
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+.carousel-control .icon-prev,
+.carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  display: inline-block;
+}
+.carousel-control .icon-prev,
+.carousel-control .icon-next {
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  font-family: serif;
+}
+.carousel-control .icon-prev:before {
+  content: '\2039';
+}
+.carousel-control .icon-next:before {
+  content: '\203a';
+}
+/* @end */
+
+/* @group Work Group */
+
+.work-section .work-item{
+	
+	margin-bottom: 10px;
+}
+
+.work-section .work-item p.title{
+	color: white;
+	font-size: 1.2em;
+	padding: 0;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+.work-section .work-item p.description{
+	color: #efefef;
+	font-size: 1em;
+	padding: 0;
+	margin: 0 0 10px;
+}
+
+.work-section .work-item img{
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.arrow-before:before {
+  position: absolute;
+  display: block;
+  content: "";  
+  border-color: #eee transparent transparent transparent;
+  border-style: solid;
+  border-width: 10px;
+  height:0;
+  width:0;
+	border-top-color: transparent;
+	border-left-color: #991f58;
+	border-right-color: transparent;
+	margin-top: 0;
+	padding: 0;
+	top: 60px;
+	left: -5px;
+	z-index: 0;
+}
+
+/* @end */
+
+
+
+
+
+/* @end */
+
+/* @group Content Group */
+
+
+/* @group Product */
+
+.box-category{
+	padding-top: 25px;
+}
+
+.box-sorft{
+	padding-top: 25px;
+}
+
+
+.product-list-item{
+	width: 250px;
+	height: 250px;
+}
+
+/* @end */
+
+
+
+/* @end */
+/* @group footer Group */
+.footerZone{
+	padding-bottom: 20px;
+}
+
+footer a{
+	color: #666666;
+}
+
+footer a:visited{
+	color: #666666;
+}
+
+footer a:hover{
+	text-decoration: underline;
+	color: #666666;
+}
+
+footer h3{
+color: #4c4c4c;
+	margin: 0 0 10px;
+	font-size: 1.2em;
+}
+
+footer address p{
+	color: #666666;
+}
+
+footer address ul li{
+	color: #666666;
+}
+
+p.copyright{
+	color: #5e5e5e;
+}
+/* @end */
+
+
+/*====Media Quryey=====*/
+
+@media (max-width: 499px) {
+
+.product-list-item{
+	width: 100%;
+	height: 100%;
+}
+
+
+.headerZone .data-contact{
+	border-left: 1px solid white;
+}
+
+.headerZone .data-contact p{
+	font-size: 1.5em;
+}
+.nav-main-list-link{
+	background-color: gray;
+	padding: 5px;
+	text-align: center;
+	border: 1px solid white;
+}
+
+.nav-main-list-link a{
+	color: white;
+}
+
+.nav-main-list-link a:hover{
+	text-decoration: none;
+}
+header#headerZone address  p{
+	text-align: center;
+	font-size: 0.8em;
+}
+.bx-wrapper .bx-next {
+	
+	left: 20px;
+}
+.rightZone{
+margin-top: 15px;
+
+}
+
+div.carousel-indicators.news {
+	
+	z-index: 15;
+	text-align: left;
+	list-style: none outside none;
+	background-color: black;
+	position: absolute;
+	width: 100%;
+	left: 30%;
+	bottom: 0;
+	height: 28%;
+	opacity: 0.72;
+}
+
+div.carousel-indicators.news h4{
+	padding-left: 2%;
+	line-height: 6px;
+	font-size: x-small;
+}
+
+div.carousel-indicators.news p{
+	padding-left: 2%;
+	font-size: xx-small;
+}
+.page-header{
+margin-left: 15px;
+}
+
+
+.sub-content-section  .content-right-zone h2{
+padding-top: 20px;	padding-bottom: 20px;
+	margin: 20px 0 0;
+	padding-top: 0;
+}
+.navbar-header{
+	margin-bottom:10px;
+}
+
+
+}
+@media (min-width: 499px) and  (max-width: 767px) {
+
+
+
+.product-list-item{
+	width: 100%;
+	height: 100%;
+}
+
+.media-carousel .carousel-control.left 
+{
+
+	margin-top: 230px;
+
+}
+
+.media-carousel .carousel-control.right 
+{
+
+  margin-top: 230px;
+
+}
+.headerZone .data-contact{
+	border-left: 1px solid white;
+}
+
+.headerZone .data-contact p{
+	font-size: 1.5em;
+}
+.nav-main-list-link{
+	background-color: gray;
+	padding: 5px;
+	text-align: center;
+	border: 1px solid white;
+}
+
+.nav-main-list-link a{
+	color: white;
+}
+
+.nav-main-list-link a:hover{
+	text-decoration: none;
+}
+.nav  li a{
+	font-size: 1.5em;
+
+}
+
+
+header#headerZone address  p{
+	font-size: 1em;
+	text-align: center;
+}
+
+
+header#headerZone .logo img{
+width: 90%;
+text-align: center;
+}
+
+
+.media-body ul li{
+	
+	color: #666666;
+	line-height: 14px;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+
+.page-header{
+margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-header{
+	margin-bottom: 10px;
+}
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+ 
+ .nav  li a{
+
+ 	margin: 0;
+ 	padding-right: 10px;
+ 	padding-left: 10px;
+ 	color: white;
+ }
+
+ 
+.thumbnail{
+	text-align: center;
+	border-style: none;
+}
+
+
+.sub-content-section  .content-right-zone h2{
+	padding-bottom: 20px;
+	margin: 0;
+	padding-top: 20px;
+	text-align: center;
+}
+
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+.bx-wrapper .bx-next {
+	
+	left: 680px;
+}
+
+
+
+
+.nav  li a{
+
+	
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
