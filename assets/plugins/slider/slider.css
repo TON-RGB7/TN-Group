@@ -21,7 +21,8 @@ html,body{height:100%;}
 	width: 100%;
 	position: relative;
 	height: 500px;
-	
+	margin: 0 0 0 -10px;
+	padding: 0;
 }
 #preloader{
 	width:32px; padding: 10px;

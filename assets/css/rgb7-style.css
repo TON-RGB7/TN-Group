@@ -39,8 +39,15 @@ d8888b.  d888b  d8888b. d88888D
 }
 
 .padding-left-0{
-	padding-left: 0;
+	padding-left: 0 !important;
+
 }
+
+.margin-top-20{
+	margin-top: 20px !important;
+}
+
+
 
 /* @end */
 
@@ -49,6 +56,7 @@ d8888b.  d888b  d8888b. d88888D
 .photo-gallery-pager{
 	margin: 0;
 	padding: 0;
+	display: block;
 }
 
 /* @end */
@@ -97,6 +105,42 @@ d8888b.  d888b  d8888b. d88888D
 	padding: 0;
 }
 
+.job-list-pages tr{
+	margin-bottom: 20px;
+}
+
+p.text-auto-top {
+	position: absolute;
+	bottom: 38%;
+	top: 39%;
+}
+
+.job-list-pages tr td {
+	position: relative;
+}
+td.detail{
+	width: 30%;
+}
+td.position{
+	width: 14%;
+}
+td.experience{
+	width: 14%;
+	text-align: center;
+}
+.gender{
+	width: 11%;
+}
+.amount{
+	width: 12%;
+}
+.salary{
+	width: 11%;
+}
+.download-bt{
+	width: 12%;
+	text-align: center;
+}
 /* @end */
 
 /* @group job-detail-pages */
@@ -153,7 +197,7 @@ d8888b.  d888b  d8888b. d88888D
 
 /* @end */
 
-/* @group about-detial-pages */
+/* @group employee-system */
 .employee-system{
 	margin: 0;
 	padding: 0;
@@ -163,10 +207,10 @@ d8888b.  d888b  d8888b. d88888D
 .panel-body { padding:0px; }
 .panel-footer .pagination { margin: 0; }
 .panel .glyphicon,.list-group-item .glyphicon { margin-right:5px; }
-.panel-body .radio, .checkbox { display:inline-block;margin:0px; }
-.panel-body input[type=checkbox]:checked + label { text-decoration: line-through;color: rgb(128, 144, 160); }
+.panel-body h4 { display:inline-block;margin:0px; }
 .list-group-item:hover, a.list-group-item:focus {text-decoration: none;background-color: rgb(245, 245, 245);}
 .list-group { margin-bottom:0px; }
+
 /* @end */
 
 /* @end */
