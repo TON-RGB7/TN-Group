@@ -19,12 +19,7 @@
 			<script src="../assets/js/respond.min.js"></script>
 			<![endif]-->
 			<!--++++++++++++  Plug in ++++++++++++++++-->
-			<script src="../assets/js/jquery.js"></script>
-			<script src="../assets/js/bootstrap.js"></script>
-			<link href="../assets/plugins/slider/slider.css" rel="stylesheet">
-			<link href="../assets/css/carousel.css" rel="stylesheet">
-			<script type="text/javascript" src="../assets/plugins/slider/jquery.easing.1.3.js"></script>
-			<!--++++++++++++ End  Plug in +++++++++++++-->        
+		    <!--++++++++++++ End  Plug in +++++++++++++-->        
 	</head>
 	<body class="bgBodyZone" >
 		<!--===========================================-->
@@ -39,57 +34,8 @@
 											<div class="row">
 													<h1><a href="http://">Company News</a>  &gt; Egestas</h1>
 													<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-															 <!-- BEGIN Gallery -->
-															<div class="gallery col-lg-12 col-md-8 col-xs-12">
-																	<div id="bg">
-																			<!-- GALLERY nav -->
-																			<a href="#" class="nextImageBtn" title="next"></a>
-																			<a href="#" class="prevImageBtn" title="previous"></a>
-																			<!--END GALLERY nav -->
-																			
-																			<img src="http://placehold.it/760x506/000/fff"  alt="กิจกรรมการเลี้ยงอาหารกลางวันเด็ก" id="bgimg" />
-																	</div>
-																	<div id="preloader">
-																		<img src="http://homex.rgb7.com/frontend/assets/slider/ajax-loader_dark.gif" width="32px" height="32px" />
-																	</div>
-																	<div id="thumbnails_wrapper">
-																			<div id="outer_container">
-																					<div class="thumbScroller">
-																							<div class="container-img">
-																									<!-- GALLERY Item photo mini -->
-																									<div class="content">
-																									<div><a href="http://placehold.it/760x506/000/fff"><img src="http://placehold.it/760x506/000/fff" width="120px" alt="Denebola" class="thumb" /></a></div>
-																									</div>
-																									<div class="content">
-																									<div><a href="http://placehold.it/760x506/000/fff"><img src="http://placehold.it/760x506/000/fff" width="120px" alt="Denebola" class="thumb" /></a></div>
-																									</div>
-																									<div class="content">
-																									<div><a href="http://placehold.it/760x506/000/fff"><img src="http://placehold.it/760x506/000/fff" width="120px" alt="Denebola" class="thumb" /></a></div>
-																									</div>
-																									<div class="content">
-																									<div><a href="http://placehold.it/760x506/000/fff"><img src="http://placehold.it/760x506/000/fff" width="120px" alt="Denebola" class="thumb" /></a></div>
-																									</div>
-																									<div class="content">
-																									<div><a href="http://placehold.it/760x506/000/fff"><img src="http://placehold.it/760x506/000/fff" width="120px" alt="Denebola" class="thumb" /></a></div>
-																									</div>
-																									<div class="content">
-																									<div><a href="http://placehold.it/760x506/000/fff"><img src="http://placehold.it/760x506/000/fff" width="120px" alt="Denebola" class="thumb" /></a></div>
-																									</div>
-																									<div class="content">
-																									<div><a href="http://placehold.it/760x506/000/fff"><img src="http://placehold.it/760x506/000/fff" width="120px" alt="Denebola" class="thumb" /></a></div>
-																									</div>
-																									<div class="content">
-																									<div><a href="http://placehold.it/760x506/000/fff"><img src="http://placehold.it/760x506/000/fff" width="120px" alt="Denebola" class="thumb" /></a></div>
-																									</div>
-																									<div class="content">
-																									<div><a href="http://placehold.it/760x506/000/fff"><img src="http://placehold.it/760x506/000/fff" width="120px" alt="Denebola" class="thumb" /></a></div>
-																									</div>
-																									<!-- END GALLERY Item photo mini-->
-																							</div>
-																					</div>
-																			</div>
-																	</div>
-															</div>
+															<!-- BEGIN Gallery -->
+															<img class="img-responsive " src="http://placehold.it/760x506/000/fff" alt="" />
 															<!--END Gallery-->
 															<br>
 															<div class="row">
@@ -108,7 +54,7 @@
 															</p>
 															<!--END text-->
 															
-															<button type="button" class="btn btn-primary">Download PDF</button>
+															<a href="#" type="button" class="btn btn-primary">Download PDF</a>
 															
 															</div>
 													</div>
@@ -147,35 +93,13 @@
 					</div><!--end sub-content-section-->
 			</div><!--end col-->
 			<!--end bgfill color-->
-			<!--  ========== Core Script===========-->
+			
+			<script src="../assets/js/jquery.js"></script>
+			<script src="../assets/js/bootstrap.js"></script>
 			<script src="../assets/js/holder.js"></script>
+			
 			<!--++++++++++++  Plug in ++++++++++++++++-->
-			<script>
-				    $('.carousel').carousel({
-				      interval: 0
-				    })
-		    </script>
-		    <script type="text/javascript" src="../assets/plugins/bxslider/jquery.bxslider.js"></script>
-		    <script src="../assets/scripts/index.js"></script>
-		    <script type="text/javascript">
-		          jQuery(document).ready(function() {
-		              App.init();
-		              App.initBxSlider();
-		              Index.initRevolutionSlider();
-		          });
-		          $('.bxslider').bxSlider({
-		            minSlides: 4,
-		            maxSlides: 4,
-		            slideWidth: 360,
-		            slideMargin: 10
-		          });
-		    </script>
-			<script>
-				    $('body').show();
-				    $('.version').text(NProgress.version);
-				    NProgress.start();
-				    setTimeout(function() { NProgress.done(); $('.fade').removeClass('out'); }, 1000);
-			</script>
+			
 			<!--++++++++++++ End Plug in  +++++++++++++--> 
 	</body>
 </html>
